@@ -11,7 +11,7 @@ public:
         //         if(val == el){
         //             freq++;
         //         }
-        //     if(freq > n){
+        //     if(freq > n/2){
         //         return el;
         //     }
         //     }
@@ -31,13 +31,13 @@ public:
         //         freq = 1;
         //         ans = nums[i];
         //     }
-        //     if(freq > nums.size()){
+        //     if(freq > nums.size()/2){
         //         return ans;;
         //     }
         // }
         // return ans;
 
-        //MOORES'S VOTING ALGORITHM - T.C = O(N)
+        // MOORES'S VOTING ALGORITHM - T.C = O(N)
         int freq = 0;
         int ans = 0;
         for(int i = 0;i < nums.size();i++){
